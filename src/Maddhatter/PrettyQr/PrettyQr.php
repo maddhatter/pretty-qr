@@ -30,12 +30,11 @@ class PrettyQr{
 //**PUBLIC METHODS**
 
 	/**
-	 * Constructor, sets default colors, passes $text to setText(), sets error handling
+	 * Constructor, sets default colors
 	 */
-	public function __construct($text=false){
+	public function __construct(){
 		$this->fg = array(0,0,0,0);
 		$this->bg = array(255,255,255,127);
-		$this->setText($text);
 	}
 	
 	/**
