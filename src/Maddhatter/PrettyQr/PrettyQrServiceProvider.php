@@ -28,7 +28,9 @@ class PrettyQrServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		//
+		$this->app['pretty-qr'] = $this->app->share(function($app){
+			return new PrettyQr;
+		});
 	}
 
 	/**
