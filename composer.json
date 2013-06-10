@@ -1,6 +1,7 @@
 {
     "name": "maddhatter/pretty-qr",
-    "description": "",
+    "description": "Laravel package to create custom QR codes",
+    "license": "GPL-3.0+",
     "authors": [
         {
             "name": "Shawn Tunney",
